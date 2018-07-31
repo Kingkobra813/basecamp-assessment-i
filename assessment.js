@@ -5,7 +5,7 @@ var myName = "Adam Kelly";
 // #2 create a variable called 'faveNum' and assign it to your favorite number
 
 // CODE HERE
-var faveNum = "7";
+var faveNum = 7;
 // #3 create a variable called 'lovesCode' and set it to true
 
 // CODE HERE
@@ -21,7 +21,7 @@ var trueFaveNum = trueFaveNum = faveNum;
 // #6 Create a new variable called notHakeem. Using the previously created myName variable, test that your name DOES NOT equal the string 'Hakeem Olajuwon'. If your name does happen to be Hakeem Olajuwon, test against 'Karl Malone'
 
 // CODE HERE
-var notHakeem = myName != 'Hakeem Olajuwon';
+var notHakeem = myName !== 'Hakeem Olajuwon';
 // #7 Create an if statement that checks the age variable below. If age is greater than 16, then set canDrive to true otherwise set canDrive to false. The canDrive variable will be set by the unit test so do not adjust it.
 var age = 18;
 var canDrive;
@@ -29,7 +29,11 @@ var canDrive;
 
 // CODE HERE
 canDrive = true;
-  if(age >= 16);
+  if(age >= 16) {
+    return true;
+  } else {
+    return false;
+  };
 // #8 Create an if statement inside of the responseCreator function that sets the colorResponse variable value based off of a passed in value. The param value passed in will be added in the unit test. If the param value is 'green' set colorResponse variable to 'Green is okay'. If the param value is 'red' set reponse variable to 'I heart red'. Otherwise set the colorResponse variable to 'What is your favorite color?'. Make sure to return the colorResponse variable at the end once it has been properly set.
 
 var colorResponse;
