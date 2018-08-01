@@ -43,7 +43,7 @@ var responseCreator = function(param){
   if(param = "green") {
     return "Green is okay";
   } else if(param = "red") {
-    return "I heart red"; {
+    return "I heart red";} {
       else {'What is your favorite color?'};
     }
 
@@ -63,3 +63,4 @@ var sum = function(y) {
 var greeter = function(gName, z) {
   return ('Hi! I am' + ' gName' + 'and I am' + ' z' + 'years old')
 }
+greeter(AudioParam, 31);
